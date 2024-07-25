@@ -1,12 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import homeState from "../reducers/homeState/homeState";
-import postsState from "../reducers/postsState/postsState";
+import pageState from "../reducers/pageState/pageState";
 // ...
 
 export const store = configureStore({
   reducer: {
     homeState,
-    postsState
+    pageState,
   },
 });
 
